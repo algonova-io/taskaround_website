@@ -1,61 +1,67 @@
 <template>
   <div class="landing-page">
     <!-- Header -->
-    <header class="header ">
-      <div class="container header-inner">
-        <div class="logo">
-          <img src="../assets/taskaround_website_logo.png" alt="TaskAround Logo" />
-        </div>
-        <nav class="nav">
-          <a href="#">Contact</a>
-        </nav>
-      </div>
-    </header>
-
+    <v-row class="header px-16 pt-4">
+      <!-- Left side: Logo -->
+      <v-col cols="6" class="logo">
+        <img src="../assets/taskaround_website_logo.png" alt="TaskAround Logo" height="72"/>
+      </v-col>
+      <!-- Right side: Navigation Links -->
+      <v-col class="menu">
+        <v-spacer></v-spacer>
+        <router-link to="#" style="color: white; text-decoration: none">
+          <span>Contact</span>
+        </router-link>
+        <router-link to="#" style="color: white; text-decoration: none">
+          <span>Blog</span>
+        </router-link>
+      </v-col>
+    </v-row>
+    <!--    <v-spacer></v-spacer>-->
     <!-- Hero Section -->
-    <v-container >
-      <v-row>
-        <v-col class="fill-height">
+    <v-row class="hero px-16">
+      <v-col cols="6" class="d-flex flex-column ga-3" >
+        <div class="d-flex flex-column ga-3">
           <h1>Help is just around the corner.</h1>
           <p>
-            Whether you need a hand or want to earn on your terms, Taskaround connects you with local people to get tasks done fast. Post, find, and complete gigs near you — all from your phone, and completely free.
+            Whether you need a hand or want to earn on your terms, Taskaround connects you with local people to get
+            tasks done fast. Post, find, and complete gigs near you — all from your phone, and completely free.
           </p>
-          <v-row>
-            <div class="store-buttons">
-              <a href="#">
-                <img src="../assets/Google%20Play.png" alt="Download on Google Play" />
-              </a>
-              <a href="#">
-                <img src="../assets/App%20Store.png" alt="Download on the App Store" />
-              </a>
-            </div>
-          </v-row>
-        </v-col>
-        <v-row>
-            <img src="../assets/mockup_2.png" alt="Phone screen 2" class="phone second" />
-            <img src="../assets/mockup_1.png" alt="Phone screen 1" class="phone first" />
-        </v-row>
+        </div>
+        <div class="d-flex flex-row">
+          <img class="store-buttons" src="../assets/Google%20Play.png" alt="Download on Google Play"/>
+          <img class="store-buttons" src="../assets/App%20Store.png" alt="Download on the App Store"/>
+        </div>
+      </v-col>
+      <v-col cols="6">
 
-      </v-row>
-    </v-container>
+      </v-col>
+      <!--        <v-row>-->
+      <!--            <img src="../assets/mockup_2.png" alt="Phone screen 2" class="phone" />-->
+      <!--            <img src="../assets/mockup_1.png" alt="Phone screen 1" class="phone" />-->
+      <!--        </v-row>-->
+    </v-row>
+    <v-spacer></v-spacer>
 
     <!-- Footer -->
-    <footer class="footer">
-      <div class="social-icons">
-        <a href="#">📘</a>
-        <a href="#">🟢</a>
-        <a href="#">📸</a>
+    <v-footer class="footer">
+      <div>
+        <font-awesome-icon style="height: 30px; width: 30px; color: black " :icon="faInstagram"/>
+        <font-awesome-icon style="height: 30px; width: 30px" :icon="faFacebook"/>
+        <font-awesome-icon style="height: 30px; width: 30px" :icon="faTiktok"/>
+        <font-awesome-icon style="height: 30px; width: 30px" :icon="faLinkedin"/>
       </div>
       <div class="footer-links">
         <a href="#">Terms & Conditions</a>
         <a href="#">Privacy policy</a>
       </div>
-    </footer>
+    </v-footer>
   </div>
 </template>
 
 <script setup lang="ts">
 // No logic needed for this static layout
+import {faFacebook, faInstagram, faLinkedin, faTiktok} from "@fortawesome/free-brands-svg-icons";
 </script>
 
 <style scoped>
@@ -68,26 +74,11 @@
   background-color: #f46066;
   color: white;
   font-family: 'Poppins', sans-serif;
+
 }
-/* Reusable container class like Freetrade's layout */
-.container {
-  width: 100%;
-  max-width: 1200px;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  margin: 0 auto;
-}
+
 
 /* Header */
-.header {
-  padding-top: 2rem;
-}
-
-.header-inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 .logo img {
   height: 40px;
@@ -95,93 +86,26 @@
   display: block;
 }
 
-.nav a {
-  color: white;
-  font-weight: 600;
-  font-size: clamp(0.875rem, 1vw, 1rem);
-  line-height: 1;
-  text-decoration: none;
-}
 
 /* Hero */
 .hero {
-  flex: 1;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  top:20%;
-  bottom:20%;
-  max-width: 500px;
+  flex-direction: row;
+  padding-left: 0;
+  padding-right: 0;
+  gap: 4rem;
 }
 
-.hero-inner {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-  align-items: center;
-}
-
-@media (min-width: 768px) {
-  .hero-inner {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-}
-
-.hero-content {
-  flex: 1;
-  max-width: 550px;
-  text-align: left;
-}
-
-.hero-content h1 {
-  font-size: clamp(2.5rem, 6vw, 4rem);
-  font-weight: 700;
-  margin-bottom: 1.5rem;
-  line-height: 1;
-}
-
-.hero-content p {
-  font-size: clamp(1rem, 2vw, 1.5rem);
-  font-weight: 400;
-  margin-bottom: 2rem;
-  line-height: 1.6;
-}
-
-.store-buttons a img {
-  height: 48px;
+.store-buttons {
+  max-height: 48px;
   margin-right: 1rem;
 }
 
-/* Phones */
-.hero-images {
-  display: flex;
-  gap: 2rem;
-  justify-content: center;
-  flex: 1;
-  max-width: 600px;
-}
-
-.phone {
-  width: clamp(140px, 20vw, 180px);
-  border-radius: 0;
-  box-shadow: none;
-  background: transparent;
-}
-
-.phone.first {
-  transform: rotate(-10deg);
-}
-
-.phone.second {
-  transform: rotate(5deg);
-}
 
 /* Footer */
 .footer {
   background: white;
-  color: #f46066;
+  color: black;
   display: flex;
   justify-content: space-between;
   padding: 1rem 2rem;
@@ -190,13 +114,10 @@
 }
 
 .footer a {
-  color: #f46066;
+  color: black;
   text-decoration: none;
   margin-right: 1rem;
 }
 
-.social-icons {
-  display: flex;
-  gap: 1rem;
-}
+
 </style>
