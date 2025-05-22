@@ -17,10 +17,10 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
       <v-col class="menu">
         <v-spacer></v-spacer>
         <router-link to="#" style="color: white; text-decoration: none">
-          <span>Contact</span>
+          <span>{{ $t('navigation.contact') }}</span>
         </router-link>
         <router-link to="#" style="color: white; text-decoration: none">
-          <span>Blog</span>
+          <span>{{ $t('navigation.blog') }}</span>
         </router-link>
       </v-col>
     </div>
@@ -42,8 +42,8 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
         </div>
         <v-spacer/>
         <div class="footer-links">
-          <router-link to="/terms">Terms & Conditions</router-link>
-          <router-link to="/privacy">Privacy policy</router-link>
+          <router-link to="/terms">{{ $t('footer.terms') }}</router-link>
+          <router-link to="/privacy">{{ $t('footer.privacy') }}</router-link>
         </div>
 
       </div>

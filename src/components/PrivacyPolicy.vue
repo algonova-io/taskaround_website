@@ -136,7 +136,7 @@
   <hr>
   <h2 id="13-contact-us">13. Contact Us</h2>
   <p>If you have questions about this Privacy Policy or your data, contact us at:</p>
-  <p>📧 <strong>Email:</strong> info@taskaround.io<br>🏢 <strong>Mail:</strong> Taskaround Inc., 1111b South Governors
+  <p><strong>Email:</strong> info@taskaround.io<br><strong>Mail:</strong> Taskaround Inc., 1111b South Governors
     Ave, STE 29971, Dover, DE 19904, USA</p>
   <hr>
   <p class="footnote"><em>Last updated: May 19, 2025</em><br><em>This policy is intended to comply with GDPR, CCPA, and other global

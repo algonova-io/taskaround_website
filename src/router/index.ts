@@ -1,4 +1,4 @@
-import {createMemoryHistory, createRouter, createWebHistory} from "vue-router";
+import {createRouter, createWebHistory} from "vue-router";
 
 import HomeScreen from "../components/HomeScreen.vue";
 import PrivacyPolicy from "../components/PrivacyPolicy.vue";

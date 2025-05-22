@@ -213,8 +213,8 @@
     <section>
       <h2>17. Contact Us</h2>
       <p>If you have questions or concerns, contact us:</p>
-      <p>📧 <strong>Email:</strong> info@taskaround.io</p>
-      <p>🏢 <strong>Mail:</strong> Taskaround Inc., 1111b South Governors Ave, STE 29971, Dover, DE 19904, USA</p>
+      <p><strong>Email:</strong> info@taskaround.io</p>
+      <p><strong>Mail:</strong> Taskaround Inc., 1111b South Governors Ave, STE 29971, Dover, DE 19904, USA</p>
     </section>
 
     <hr />

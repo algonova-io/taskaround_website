@@ -3,15 +3,11 @@
     <div class="d-flex">
       <v-col :cols="sm ? 12 : 6" class="d-flex flex-column ga-6 pt-16">
         <div class="d-flex flex-column ga-6">
-          <h1>Tra vicini ci si aiuta.</h1>
+          <h1>{{ $t('homePage.title')}}</h1>
           <div class="d-flex flex-column">
             <h3>
-              Scopri chi può darti una mano nel tuo quartiere — o offriti tu.
+              {{ $t('homePage.description') }}
             </h3>
-            <h3>
-              Bastano pochi secondi, ed è gratis. Scarica ora!
-            </h3>
-
           </div>
         </div>
         <div class="d-flex flex-row">
