@@ -26,7 +26,7 @@ const vuetify = createVuetify({
 })
 export const i18n = createI18n({
         locale: navigator.language.split('-')[0],  // Extract the language code from the browser locale (e.g., 'en' from 'en-US')
-        fallbackLocale: 'it',
+        fallbackLocale: 'en',
         messages: {
              en: en,
             // de: de,
