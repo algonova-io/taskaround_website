@@ -1,33 +1,25 @@
-import {createMemoryHistory, createRouter} from "vue-router";
-import HelloWorld from "../components/HelloWorld.vue";
-// import HomeView from "@/components/home/HomeView.vue";
-// import AboutView from "@/components/about/AboutView.vue";
-// import ContactView from "@/components/contact/ContactView.vue";
-// import BlogView from "@/components/blog/BlogView.vue";
-// import ProjectsView from "@/components/projects/ProjectsView.vue";
+import {createMemoryHistory, createRouter, createWebHistory} from "vue-router";
+
+import HomeScreen from "../components/HomeScreen.vue";
+import PrivacyPolicy from "../components/PrivacyPolicy.vue";
+import Terms from "../components/Terms.vue";
 
 
 const routes = [
     {path: '/',
-        component: HelloWorld,
+        component: HomeScreen,
         meta: { transition: 'slide-left' },
     },
-    // {path: '/about', component: AboutView,
-    //     meta: { transition: 'slide-left' },
-    // },
-    // {path: '/projects', component: ProjectsView,
-    // meta: { transition: 'slide-left' },
-    // },
-    // {path: '/contact', component: ContactView,
-    // meta: { transition: 'slide-left' },
-    // },
-    // {path: '/blog', component: BlogView,
-    // meta: { transition: 'slide-left' },
-    // },
+    {path: '/privacy', component: PrivacyPolicy,
+        meta: { transition: 'slide-left' },
+    },
+    {path: '/terms', component: Terms,
+    meta: { transition: 'slide-left' },
+    },
 ]
 
 const router = createRouter({
-    history: createMemoryHistory(),
+    history: createWebHistory(),
     routes,
 })
 

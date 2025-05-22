@@ -6,8 +6,10 @@ import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
 import '@mdi/font/css/materialdesignicons.css'
 import {createI18n} from "vue-i18n";
-import router from "./router";
+import router from "@/router";
 import 'vuetify/styles'
+import '@mdi/font/css/materialdesignicons.css'
+
 
 const app = createApp(App)
 const vuetify = createVuetify({
