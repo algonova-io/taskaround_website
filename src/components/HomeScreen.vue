@@ -31,10 +31,6 @@
         </div>
 
       </v-col>
-      <!--        <v-row>-->
-      <!--            <img src="../assets/mockup_2.png" alt="Phone screen 2" class="phone" />-->
-      <!--            <img src="../assets/mockup_1.png" alt="Phone screen 1" class="phone" />-->
-      <!--        </v-row>-->
     </div>
 
     <v-spacer></v-spacer>
