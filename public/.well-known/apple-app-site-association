@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "56DP5NDJYS.com.taskaround.app",
+        "paths": ["*"]
+      }
+    ]
+  }
+}
