@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.taskaround.app",
+    "sha256_cert_fingerprints":
+    ["7B:17:83:6B:42:C6:43:FD:16:41:EF:9A:1B:5B:0B:DD:3D:DE:60:5F:EB:55:24:90:6D:DF:00:4E:75:FF:B0:57"]
+  }
+}]
