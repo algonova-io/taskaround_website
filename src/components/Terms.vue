@@ -228,7 +228,7 @@
 .privacy-container {
   margin: 2rem auto;
   padding: 2rem;
-  font-family: 'Inter', sans-serif;
+  width: 100%;
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);

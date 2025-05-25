@@ -10,7 +10,7 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
       <!-- Left side: Logo -->
       <v-col cols="6" class="logo">
         <router-link to="/">
-          <img src="./assets/taskaround_website_logo.png" alt="TaskAround Logo" height="72"/>
+          <img src="./assets/taskaround_logo_white.png" alt="TaskAround Logo" height="100"/>
         </router-link>
       </v-col>
       <!-- Right side: Navigation Links -->
