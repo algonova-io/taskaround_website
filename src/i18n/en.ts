@@ -202,6 +202,190 @@ const en =  {
       "This policy is intended to comply with GDPR, CCPA, and other global privacy regulations.",
     ],
   },
+    terms: {
+        "title": "Terms and Conditions",
+        "effectiveDate": "Effective Date: May 19, 2025",
+        "company": "Company: Taskaround Inc.",
+        "address": "Address: 1111b South Governors Ave, STE 29971, Dover, DE 19904, USA",
+        "intro": {
+            "paragraph1": "Welcome to Taskaround, a proximity-based gig marketplace that connects users to post and fulfill local tasks (“Services”). These Terms and Conditions (“Terms”) govern your use of the Taskaround mobile application and related services (collectively, the “Platform”) provided by Taskaround Inc. (“Taskaround,” “we,” “us,” or “our”).",
+            "paragraph2": "By accessing or using the Platform, you agree to be bound by these Terms and our Privacy Policy. If you do not agree, do not access or use the Platform."
+        },
+        "sections": {
+            "1": {
+                "title": "1. Eligibility and Account Registration",
+                "items": [
+                    "You must be at least 18 years old and legally capable of entering into binding agreements.",
+                    "You may only register one account and must provide accurate and complete information.",
+                    "You agree to update your information as necessary to keep it current.",
+                    "You may not use the Platform if your account has previously been suspended or terminated."
+                ]
+            },
+            "2": {
+                "title": "2. Nature of the Platform",
+                "items": [
+                    "Taskaround is a neutral technology platform connecting users who post tasks (“Task Posters”) with users who fulfill them (“Task Doers”).",
+                    "We do not employ, supervise, or control any users or the tasks they perform.",
+                    "We do not verify the identity or background of users, although we may offer optional verification services.",
+                    "We make no guarantees about the quality, safety, legality, or timeliness of tasks."
+                ]
+            },
+            "3": {
+                "title": "3. Payments and Transactions",
+                "items": [
+                    "Payments are processed securely through Stripe, a third-party payment processor.",
+                    "By using the Platform, you authorize Stripe to charge your selected payment method. You agree to Stripe’s Terms of Service.",
+                    "Taskaround does not store payment details and is not responsible for payment issues, chargebacks, or fraud.",
+                    "Taskaround may charge service or platform fees, which will be clearly disclosed before transaction confirmation.",
+                    "Refunds are not guaranteed. Disputes regarding task outcomes must be resolved between the users. Taskaround may, at its discretion, offer informal mediation."
+                ]
+            },
+            "4": {
+                "title": "4. User Conduct",
+                "intro": "You agree not to:",
+                "items": [
+                    "Violate any applicable law or regulation;",
+                    "Post false, illegal, misleading, or harmful tasks;",
+                    "Use fake identities or impersonate others;",
+                    "Harass, threaten, or abuse other users;",
+                    "Circumvent fees or attempt to transact outside the Platform."
+                ],
+                "note": "We may suspend or terminate your account at any time for violation of these Terms, with or without notice."
+            },
+            "5": {
+                "title": "5. Ratings and Reviews",
+                "items": [
+                    "Users may rate and review each other after task completion.",
+                    "Reviews must be honest and free from defamatory, discriminatory, or offensive language.",
+                    "Taskaround may remove or moderate reviews that violate our content guidelines.",
+                    "We do not guarantee the accuracy of reviews and disclaim liability for user-submitted content."
+                ]
+            },
+            "6": {
+                "title": "6. Location Services",
+                "items": [
+                    "The Platform uses your device’s location to suggest relevant tasks.",
+                    "You may manually provide your location if you disable GPS.",
+                    "You consent to our collection and use of your location data for functionality purposes.",
+                    "Taskaround does not guarantee the accuracy of location data and is not responsible for misuse."
+                ]
+            },
+            "7": {
+                "title": "7. Messaging and Notifications",
+                "items": [
+                    "You consent to receive push notifications, emails, and in-app messages related to account activity, task updates, or promotions.",
+                    "You may manage your preferences in device or app settings.",
+                    "Taskaround does not monitor private user messages unless required to investigate violations or comply with legal obligations."
+                ]
+            },
+            "8": {
+                "title": "8. Third-Party Services",
+                "text": "Taskaround uses third-party services subject to their own terms:",
+                "items": [
+                    {
+                        "label": "Stripe",
+                        "context": "Payments",
+                        "url": "https://stripe.com/legal"
+                    },
+                    {
+                        "label": "Firebase Analytics",
+                        "url": "https://firebase.google.com/terms/analytics"
+                    },
+                    {
+                        "label": "Firebase Firestore",
+                        "url": "https://firebase.google.com/terms"
+                    },
+                    {
+                        "label": "Google Maps/Places APIs",
+                        "url": "https://cloud.google.com/maps-platform/terms"
+                    }
+                ],
+                "note": "Taskaround is not responsible for these third parties’ performance, terms, or data practices."
+            },
+            "9": {
+                "title": "9. Intellectual Property and License",
+                "items": [
+                    "All content, software, logos, and trademarks on the Platform are the exclusive property of Taskaround Inc.",
+                    "You may not copy, reverse-engineer, modify, or distribute any part of the Platform without our prior written consent.",
+                    "We grant you a limited, non-transferable, non-exclusive, revocable license to use the Platform solely for personal, non-commercial purposes and in compliance with these Terms."
+                ]
+            },
+            "10": {
+                "title": "10. Indemnification",
+                "text": "You agree to indemnify, defend, and hold harmless Taskaround Inc., its affiliates, officers, employees, and agents from any claims, liabilities, damages, and expenses (including legal fees) arising from:",
+                "items": [
+                    "Your use or misuse of the Platform;",
+                    "Your violation of these Terms;",
+                    "Your interaction or dispute with another user;",
+                    "Any third-party claims resulting from content you post or actions you take on the Platform."
+                ]
+            },
+            "11": {
+                "title": "11. Termination",
+                "text": "We may terminate or suspend your access to the Platform at any time, without prior notice, for any reason including breach of these Terms.",
+                "afterTermination": "Upon termination:",
+                "items": [
+                    "You must cease use and delete the app from your devices;",
+                    "We may delete or retain your account data per our data retention policy."
+                ]
+            },
+            "12": {
+                "title": "12. Disclaimers",
+                "text": "The Platform is provided “as is” and “as available” without warranties of any kind, express or implied. We make no guarantees regarding:",
+                "items": [
+                    "Accuracy, reliability, or uptime;",
+                    "Conduct of users;",
+                    "Completion or satisfaction of tasks;",
+                    "Compatibility with your device or network."
+                ],
+                "note": "To the fullest extent permitted by law, we disclaim all warranties, including merchantability, fitness for a particular purpose, and non-infringement."
+            },
+            "13": {
+                "title": "13. Limitation of Liability",
+                "text": "To the maximum extent allowed by law, Taskaround Inc. shall not be liable for:",
+                "items": [
+                    "Any indirect, incidental, or consequential damages;",
+                    "Personal injury or property damage;",
+                    "Lost profits, data, or goodwill;",
+                    "Any disputes between users;",
+                    "Any amount exceeding what you have paid to us, if any, in the past 12 months."
+                ],
+                "note": "Some jurisdictions may not allow certain limitations, and in such cases, our liability shall be limited to the minimum permitted by law."
+            },
+            "14": {
+                "title": "14. Dispute Resolution and Governing Law",
+                "items": [
+                    "Arbitration: Any disputes will be resolved exclusively by binding arbitration under the rules of the American Arbitration Association (AAA).",
+                    "Governing Law: These Terms are governed by the laws of the State of Delaware, USA.",
+                    "No Class Actions: You agree to resolve disputes individually and waive the right to participate in any class or collective action.",
+                    "Arbitration Opt-Out: You may opt out of binding arbitration by sending written notice to legal@taskaround.io within 30 days of your first acceptance of these Terms."
+                ]
+            },
+            "15": {
+                "title": "15. Modifications to These Terms",
+                "items": [
+                    "We may update these Terms at any time. If we make material changes, we will notify you via in-app message, email, or other reasonable means.",
+                    "Your continued use of the Platform after changes take effect constitutes your acceptance of the revised Terms."
+                ]
+            },
+            "16": {
+                "title": "16. Privacy",
+                "text": "Your use of the Platform is also subject to our Privacy Policy, which explains how we collect, use, and protect your personal information."
+            },
+            "17": {
+                "title": "17. Contact Us",
+                "text": "If you have questions or concerns, contact us:",
+                "items": [
+                    "Email: info@taskaround.io",
+                    "Mail: Taskaround Inc., 1111b South Governors Ave, STE 29971, Dover, DE 19904, USA"
+                ]
+            },
+            "footnote": [
+                "Last updated: May 19, 2025",
+                "This document was generated in accordance with legal best practices but is subject to final review by licensed counsel."
+            ]
+        }
+    }
 
 }
 
