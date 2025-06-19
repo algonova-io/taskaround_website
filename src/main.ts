@@ -12,7 +12,8 @@ import en from "./i18n/en.ts";
 import it from "./i18n/it.ts";
 import router from "./router";
 import {mdi} from "vuetify/iconsets/mdi";
-
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore"
 
 const app = createApp(App)
 const vuetify = createVuetify({
@@ -35,7 +36,21 @@ export const i18n = createI18n({
         }
     }
 )
+const firebaseConfig = {
+    apiKey: "AIzaSyBMJv-wad4LJ7scvIghRkNKKrfMy-AA9LU",
+    authDomain: "taskaround-f7d7b.firebaseapp.com",
+    projectId: "taskaround-f7d7b",
+    storageBucket: "taskaround-f7d7b.firebasestorage.app",
+    messagingSenderId: "139007327645",
+    appId: "1:139007327645:web:547f0308d6265ed0070374",
+    measurementId: "G-Q9VNNBDGBH"
+};
+
+// Initialize Firebase
+const firebaseApp = initializeApp(firebaseConfig);
+const db = getFirestore(firebaseApp)
 app.use(vuetify)
 app.use(router)
 app.use(i18n)
 app.mount('#app')
+export { db }

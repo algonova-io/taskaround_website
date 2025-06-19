@@ -16,6 +16,20 @@ const en =  {
         privacy: "Privacy policy",
         terms: "Terms of use",
     },
+    delete: {
+        "title": "Delete your account",
+        "instructions": "Provide your email and we'll start the deletion process. You’ll be asked to confirm in-app.",
+        "emailLabel": "Email address",
+        "emailPlaceholder": "you@example.com",
+        "msgLabel": "Optional message",
+        "msgPlaceholder": "Tell us anything that helps…",
+        "submit": "Request deletion"
+    },
+    errors: {
+        "required": "Required",
+        "invalidEmail": "Invalid email"
+    }
+
 
 }
 
