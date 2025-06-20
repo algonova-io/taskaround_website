@@ -15,13 +15,13 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
       </v-col>
       <!-- Right side: Navigation Links -->
       <v-col class="menu">
-        <v-spacer></v-spacer>
-        <router-link to="#" style="color: white; text-decoration: none">
-          <span>{{ $t('navigation.contact') }}</span>
-        </router-link>
-        <router-link to="#" style="color: white; text-decoration: none">
-          <span>{{ $t('navigation.blog') }}</span>
-        </router-link>
+<!--        <v-spacer></v-spacer>-->
+<!--        <router-link to="#" style="color: white; text-decoration: none">-->
+<!--          <span>{{ $t('navigation.contact') }}</span>-->
+<!--        </router-link>-->
+<!--        <router-link to="#" style="color: white; text-decoration: none">-->
+<!--          <span>{{ $t('navigation.blog') }}</span>-->
+<!--        </router-link>-->
       </v-col>
     </div>
     <div class="d-flex  content overflow-auto">

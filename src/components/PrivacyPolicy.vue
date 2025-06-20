@@ -4,143 +4,214 @@
 
 <template>
   <div class="privacy-container" >
-  <h1 id="privacy-policy">Privacy Policy</h1>
-  <p><strong>Effective Date:</strong> May 19, 2025<br><strong>Company:</strong> Taskaround Inc.<br><strong>Contact
-    Email:</strong> info@taskaround.io</p>
-  <p>This Privacy Policy describes how Taskaround Inc. (&quot;Taskaround&quot;, &quot;we&quot;, &quot;our&quot;, or
-    &quot;us&quot;) collects, uses, and discloses personal information when you use the Taskaround mobile application (&quot;Application&quot;).
-    By using the Application, you agree to the collection and use of information in accordance with this policy.</p>
+  <h1 id="privacy-policy">{{$t('privacyPolicy.title')}}</h1>
+  <p><strong>{{$t('privacyPolicy.effectiveDate')}}</strong> May 19, 2025<br><strong>{{$t('privacyPolicy.company')}}:</strong> Taskaround Inc.<br><strong>{{$t('privacyPolicy.contactEmail')}}:</strong> info@taskaround.io</p>
+  <p>{{$t('privacyPolicy.intro')}}</p>
   <hr>
-  <h2 id="1-information-we-collect">1. Information We Collect</h2>
-  <h3 id="a-information-you-provide">a. Information You Provide</h3>
-  <p>When you register or use our Application, you may provide personal information such as your:</p>
+  <h2 id="1-information-we-collect">{{$t('privacyPolicy.sections.1.title')}}</h2>
+  <h3 id="a-information-you-provide">{{$t('privacyPolicy.sections.1.a.title')}}</h3>
+  <p>{{$t('privacyPolicy.sections.1.a.text')}}</p>
   <ul>
-    <li>Name</li>
-    <li>Email address</li>
-    <li>Phone number</li>
-    <li>Other profile information</li>
+    <li>{{$t('privacyPolicy.sections.1.a.items.1')}}</li>
+    <li>{{$t('privacyPolicy.sections.1.a.items.2')}}</li>
+    <li>{{$t('privacyPolicy.sections.1.a.items.3')}}</li>
+    <li>{{$t('privacyPolicy.sections.1.a.items.4')}}</li>
   </ul>
-  <p>Some features of the Application may require registration. You may still use certain parts of the Application
-    without registering.</p>
-  <p>We may also use your information to communicate with you for customer support, updates, legal notices, or
-    promotional content.</p>
-  <h3 id="b-information-we-collect-automatically">b. Information We Collect Automatically</h3>
-  <p>We may automatically collect the following information:</p>
+  <p>{{$t('privacyPolicy.sections.1.a.notes.1')}}</p>
+  <p>{{$t('privacyPolicy.sections.1.a.notes.2')}}</p>
+  <h3 id="b-information-we-collect-automatically">{{$t('privacyPolicy.sections.1.b.title')}}</h3>
+  <p>{{$t('privacyPolicy.sections.1.b.text')}}</p>
   <ul>
-    <li>Device type and model</li>
-    <li>Device identifiers (e.g., IMEI, advertising ID)</li>
-    <li>IP address</li>
-    <li>Operating system and browser type</li>
-    <li>Usage statistics and logs</li>
-    <li>App crash reports</li>
-    <li>Device location (with your consent)</li>
+    <li>{{$t('privacyPolicy.sections.1.b.items.1')}}</li>
+    <li>{{$t('privacyPolicy.sections.1.b.items.2')}}</li>
+    <li>{{$t('privacyPolicy.sections.1.b.items.3')}}</li>
+    <li>{{$t('privacyPolicy.sections.1.b.items.4')}}</li>
+    <li>{{$t('privacyPolicy.sections.1.b.items.5')}}</li>
+    <li>{{$t('privacyPolicy.sections.1.b.items.6')}}</li>
+    <li>{{$t('privacyPolicy.sections.1.b.items.7')}}</li>
   </ul>
   <hr>
-  <h2 id="2-location-data">2. Location Data</h2>
-  <p>We collect your approximate or real-time device location (with your explicit consent) to:</p>
+  <h2 id="2-location-data">{{$t('privacyPolicy.sections.2.title')}}</h2>
+  <p>{{$t('privacyPolicy.sections.2.text')}}</p>
   <ul>
-    <li>Show nearby tasks and content</li>
-    <li>Enable location-based features</li>
-    <li>Improve our services through analytics</li>
+    <li>{{$t('privacyPolicy.sections.2.items.1')}}</li>
+    <li>{{$t('privacyPolicy.sections.2.items.2')}}</li>
+    <li>{{$t('privacyPolicy.sections.2.items.3')}}</li>
   </ul>
-  <p>You can disable location access at any time in your device settings.</p>
+  <p>{{$t('privacyPolicy.sections.2.note')}}</p>
   <hr>
-  <h2 id="3-how-we-use-your-information">3. How We Use Your Information</h2>
-  <p>We use the collected data to:</p>
+  <h2 id="3-how-we-use-your-information">{{$t('privacyPolicy.sections.3.title')}}</h2>
+  <p>{{$t('privacyPolicy.sections.3.text')}}</p>
   <ul>
-    <li>Operate and maintain the Application</li>
-    <li>Provide personalized and location-based features</li>
-    <li>Improve user experience and functionality</li>
-    <li>Send important notices and updates</li>
-    <li>Enforce our Terms and Conditions</li>
-  </ul>
-  <hr>
-  <h2 id="4-legal-basis-for-processing-for-eea-users-">4. Legal Basis for Processing (for EEA Users)</h2>
-  <p>If you are located in the European Economic Area (EEA), our legal basis for processing your personal information
-    depends on the type of information and context:</p>
-  <ul>
-    <li><strong>Consent:</strong> when you voluntarily provide data or enable location</li>
-    <li><strong>Contractual necessity:</strong> to deliver the Application and its core services</li>
-    <li><strong>Legitimate interest:</strong> to improve our services, prevent fraud, and secure our infrastructure</li>
-    <li><strong>Legal obligation:</strong> to comply with applicable laws</li>
+    <li>{{$t('privacyPolicy.sections.3.items.1')}}</li>
+    <li>{{$t('privacyPolicy.sections.3.items.2')}}</li>
+    <li>{{$t('privacyPolicy.sections.3.items.3')}}</li>
+    <li>{{$t('privacyPolicy.sections.3.items.4')}}</li>
+    <li>{{$t('privacyPolicy.sections.3.items.5')}}</li>
   </ul>
   <hr>
-  <h2 id="5-sharing-and-disclosure">5. Sharing and Disclosure</h2>
-  <p>We may share information with:</p>
+  <h2 id="4-legal-basis-for-processing-for-eea-users-">{{$t('privacyPolicy.sections.4.title')}}</h2>
+  <p>{{$t('privacyPolicy.sections.4.text')}}</p>
   <ul>
-    <li><strong>Service providers</strong> (e.g., Firebase, Stripe, Google Maps) who help us operate the Application and
-      who are contractually obligated to protect your data
-    </li>
-    <li><strong>Authorities</strong>, if required by law or legal process</li>
-    <li><strong>Business partners</strong>, in case of a merger, acquisition, or asset sale</li>
+    <li><strong>{{$t('privacyPolicy.sections.4.items.1.label')}}:</strong> {{$t('privacyPolicy.sections.4.items.1.description')}}</li>
+    <li><strong>{{$t('privacyPolicy.sections.4.items.2.label')}}:</strong> {{$t('privacyPolicy.sections.4.items.2.description')}}</li>
+    <li><strong>{{$t('privacyPolicy.sections.4.items.3.label')}}:</strong> {{$t('privacyPolicy.sections.4.items.3.description')}}</li>
+    <li><strong>{{$t('privacyPolicy.sections.4.items.4.label')}}:</strong> {{$t('privacyPolicy.sections.4.items.4.description')}}</li>
   </ul>
-  <p>We do not sell or rent your personal information to third parties.</p>
   <hr>
-  <h2 id="6-third-party-services">6. Third-Party Services</h2>
-  <p>We use third-party tools for analytics, crash reporting, and geolocation:</p>
-  <ul>
-    <li><a href="https://www.google.com/policies/privacy/">Google Play Services</a></li>
-    <li><a href="https://firebase.google.com/support/privacy">Google Analytics for Firebase</a></li>
-    <li><a href="https://firebase.google.com/support/privacy">Firebase Crashlytics</a></li>
-    <li><a href="https://cloud.google.com/maps-platform/terms">Google Maps SDK / Places API</a></li>
-  </ul>
-  <p>These services may collect information in accordance with their own privacy policies.</p>
+  <h2 id="5-sharing-and-disclosure">  {{ $t('privacyPolicy.sections.5.title') }}
+  </h2>
+    <p>{{ $t('privacyPolicy.sections.5.text') }}</p>
+    <ul>
+      <li>
+        <strong>{{ $t('privacyPolicy.sections.5.items.1.label') }}:</strong>
+        {{ $t('privacyPolicy.sections.5.items.1.description') }}
+      </li>
+
+      <li>
+        <strong>{{ $t('privacyPolicy.sections.5.items.2.label') }}:</strong>
+        {{ $t('privacyPolicy.sections.5.items.2.description') }}
+      </li>
+
+      <li>
+        <strong>{{ $t('privacyPolicy.sections.5.items.3.label') }}:</strong>
+        {{ $t('privacyPolicy.sections.5.items.3.description') }}
+      </li>
+    </ul>
+    <p>{{ $t('privacyPolicy.sections.5.note') }}</p>
   <hr>
-  <h2 id="7-data-retention">7. Data Retention</h2>
-  <p>We retain:</p>
-  <ul>
-    <li>User Provided Data: as long as your account is active or as needed for the purposes outlined</li>
-    <li>Automatically Collected Data: for up to 24 months, or in aggregated form thereafter</li>
-  </ul>
-  <p>You can request deletion by contacting us at <strong>info@taskaround.io</strong>. We will process requests within a
-    reasonable time. Some information may be retained as required by law or for legitimate business needs.</p>
+    <h2 id="6-third-party-services">
+      {{ $t('privacyPolicy.sections.6.title') }}
+    </h2>
+
+    <p>{{ $t('privacyPolicy.sections.6.text') }}</p>
+    <ul>
+      <li>
+        <a
+            :href="$t('privacyPolicy.sections.6.items.1.url')"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+          {{ $t('privacyPolicy.sections.6.items.1.label') }}
+        </a>
+      </li>
+
+      <li>
+        <a
+            :href="$t('privacyPolicy.sections.6.items.2.url')"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+          {{ $t('privacyPolicy.sections.6.items.2.label') }}
+        </a>
+      </li>
+
+      <li>
+        <a
+            :href="$t('privacyPolicy.sections.6.items.3.url')"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+          {{ $t('privacyPolicy.sections.6.items.3.label') }}
+        </a>
+      </li>
+
+      <li>
+        <a
+            :href="$t('privacyPolicy.sections.6.items.4.url')"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+          {{ $t('privacyPolicy.sections.6.items.4.label') }}
+        </a>
+      </li>
+    </ul>
+    <p>{{ $t('privacyPolicy.sections.6.note') }}</p>
   <hr>
-  <h2 id="8-your-rights-gdpr-">8. Your Rights (GDPR)</h2>
-  <p>If you are located in the EEA or another jurisdiction with similar rights, you may:</p>
-  <ul>
-    <li>Access your personal data</li>
-    <li>Request correction or deletion</li>
-    <li>Object to or restrict processing</li>
-    <li>Request data portability</li>
-    <li>Withdraw consent at any time</li>
-  </ul>
-  <p>To exercise these rights, contact us at <strong>info@taskaround.io</strong>.</p>
+    <h2 id="7-data-retention">
+      {{ $t('privacyPolicy.sections.7.title') }}
+    </h2>
+
+    <p>{{ $t('privacyPolicy.sections.7.text') }}</p>
+
+    <ul>
+      <li>{{ $t('privacyPolicy.sections.7.items.1') }}</li>
+      <li>{{ $t('privacyPolicy.sections.7.items.2') }}</li>
+    </ul>
+
+    <p>{{ $t('privacyPolicy.sections.7.note') }}</p>
+    <hr>
+    <h2 id="8-your-rights-gdpr">
+      {{ $t('privacyPolicy.sections.8.title') }}
+    </h2>
+
+    <p>{{ $t('privacyPolicy.sections.8.text') }}</p>
+
+    <ul>
+      <li>{{ $t('privacyPolicy.sections.8.items.1') }}</li>
+      <li>{{ $t('privacyPolicy.sections.8.items.2') }}</li>
+      <li>{{ $t('privacyPolicy.sections.8.items.3') }}</li>
+      <li>{{ $t('privacyPolicy.sections.8.items.4') }}</li>
+      <li>{{ $t('privacyPolicy.sections.8.items.5') }}</li>
+    </ul>
+
+    <p>{{ $t('privacyPolicy.sections.8.note') }}</p>
+    <hr>
+    <h2 id="9-opt-out-rights">
+      {{ $t('privacyPolicy.sections.9.title') }}
+    </h2>
+
+    <p>{{ $t('privacyPolicy.sections.9.items.1') }}</p>
+    <p>{{ $t('privacyPolicy.sections.9.items.2') }}</p>
   <hr>
-  <h2 id="9-opt-out-rights">9. Opt-Out Rights</h2>
-  <p>You may stop all collection of information by uninstalling the Application using your device’s standard
-    procedures.</p>
-  <p>You can also disable location collection and push notifications in your device or app settings.</p>
+    <h2 id="10-children-and-age-restrictions">
+      {{ $t('privacyPolicy.sections.10.title') }}
+    </h2>
+
+    <p>{{ $t('privacyPolicy.sections.10.text') }}</p>
+    <p>{{ $t('privacyPolicy.sections.10.note') }}</p>
   <hr>
-  <h2 id="10-children-and-age-restrictions">10. Children and Age Restrictions</h2>
-  <p>This Application is <strong>not intended for anyone under the age of 18</strong>. We do not knowingly collect or
-    solicit personal information from individuals under 18.</p>
-  <p>If we learn that we have inadvertently collected personal data from someone under 18, we will delete it
-    immediately. Parents or guardians who believe their child has provided us with information should contact us at
-    <strong>info@taskaround.io</strong>.</p>
-  <hr>
-  <h2 id="11-security">11. Security</h2>
-  <p>We take appropriate technical and organizational measures to safeguard your information, including:</p>
-  <ul>
-    <li>Encryption in transit</li>
-    <li>Access controls and authentication</li>
-    <li>Secure data storage practices</li>
-  </ul>
-  <p>While we strive to use commercially acceptable means to protect your information, no method of transmission or
-    storage is 100% secure.</p>
-  <hr>
-  <h2 id="12-changes-to-this-privacy-policy">12. Changes to This Privacy Policy</h2>
-  <p>We may update this Privacy Policy from time to time. If we make material changes, we will notify you via the
-    Application or email.</p>
-  <p>Please review this page periodically for the latest information. Continued use of the Application after updates
-    means you accept the revised policy.</p>
-  <hr>
-  <h2 id="13-contact-us">13. Contact Us</h2>
-  <p>If you have questions about this Privacy Policy or your data, contact us at:</p>
-  <p><strong>Email:</strong> info@taskaround.io<br><strong>Mail:</strong> Taskaround Inc., 1111b South Governors
-    Ave, STE 29971, Dover, DE 19904, USA</p>
-  <hr>
-  <p class="footnote"><em>Last updated: May 19, 2025</em><br><em>This policy is intended to comply with GDPR, CCPA, and other global
-    privacy regulations.</em></p>
+    <h2 id="11-security">
+      {{ $t('privacyPolicy.sections.11.title') }}
+    </h2>
+
+    <p>{{ $t('privacyPolicy.sections.11.text') }}</p>
+
+    <ul>
+      <li>{{ $t('privacyPolicy.sections.11.items.1') }}</li>
+      <li>{{ $t('privacyPolicy.sections.11.items.2') }}</li>
+      <li>{{ $t('privacyPolicy.sections.11.items.3') }}</li>
+    </ul>
+
+    <p>{{ $t('privacyPolicy.sections.11.note') }}</p>
+    <hr />
+
+    <!-- ───────────── 12. Changes to This Privacy Policy ───────────── -->
+    <h2 id="12-changes-to-this-privacy-policy">
+      {{ $t('privacyPolicy.sections.12.title') }}
+    </h2>
+
+    <p>{{ $t('privacyPolicy.sections.12.items.1') }}</p>
+    <p>{{ $t('privacyPolicy.sections.12.items.2') }}</p>
+    <hr />
+
+    <!-- ───────────── 13. Contact Us ───────────── -->
+    <h2 id="13-contact-us">
+      {{ $t('privacyPolicy.sections.13.title') }}
+    </h2>
+
+    <p>{{ $t('privacyPolicy.sections.13.text') }}</p>
+    <p>
+      <strong>{{ $t('privacyPolicy.sections.13.items.1') }}</strong><br />
+      <strong>{{ $t('privacyPolicy.sections.13.items.2') }}</strong>
+    </p>
+    <hr />
+
+    <!-- ───────────── Footnote ───────────── -->
+    <p class="footnote">
+      <em>{{ $t('privacyPolicy.footnote.1') }}</em><br />
+      <em>{{ $t('privacyPolicy.footnote.2') }}</em>
+    </p>
   </div>
 </template>
 

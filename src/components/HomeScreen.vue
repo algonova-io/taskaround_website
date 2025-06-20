@@ -20,12 +20,12 @@
         <div :class="sm ? 'flex-row' : 'flex-row'" class="images-container d-flex">
           <img
               class="overlap-image"
-              src="../assets/mockup_2.png"
+              src="../assets/mockup_2.svg"
               alt=""
           />
           <img
               class="overlap-image"
-              src="../assets/mockup.png"
+              src="../assets/mockup.svg"
               alt=""
           />
         </div>
