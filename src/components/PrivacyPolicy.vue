@@ -6,7 +6,7 @@ const {t} = useI18n()
 <template>
   <div class="privacy-container" >
   <h1 id="privacy-policy">{{t('privacyPolicy.title')}}</h1>
-  <p><strong>{{t('privacyPolicy.effectiveDate')}}</strong> May 19, 2025<br><strong>{{t('privacyPolicy.company')}}:</strong> Taskaround Inc.<br><strong>{{t('privacyPolicy.contactEmail')}}:</strong> info@taskaround.io</p>
+  <p><strong>{{t('privacyPolicy.effectiveDate')}}</strong> May 19, 2025<br><strong>{{t('privacyPolicy.company')}}</strong> Taskaround Inc.<br><strong>{{t('privacyPolicy.contactEmail')}}:</strong> info@taskaround.io</p>
   <p>{{t('privacyPolicy.intro')}}</p>
   <hr>
   <h2 id="1-information-we-collect">{{t('privacyPolicy.sections.1.title')}}</h2>
@@ -187,7 +187,6 @@ const {t} = useI18n()
     <p>{{ t('privacyPolicy.sections.11.note') }}</p>
     <hr />
 
-    <!-- ───────────── 12. Changes to This Privacy Policy ───────────── -->
     <h2 id="12-changes-to-this-privacy-policy">
       {{ t('privacyPolicy.sections.12.title') }}
     </h2>
@@ -196,7 +195,6 @@ const {t} = useI18n()
     <p>{{ t('privacyPolicy.sections.12.items.2') }}</p>
     <hr />
 
-    <!-- ───────────── 13. Contact Us ───────────── -->
     <h2 id="13-contact-us">
       {{ t('privacyPolicy.sections.13.title') }}
     </h2>

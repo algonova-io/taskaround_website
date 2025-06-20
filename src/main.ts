@@ -12,8 +12,8 @@ import en from "./i18n/en.ts";
 import it from "./i18n/it.ts";
 import router from "./router";
 import {mdi} from "vuetify/iconsets/mdi";
-import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore"
+import {initializeApp} from "firebase/app";
+import {getFirestore} from "firebase/firestore"
 
 const app = createApp(App)
 const vuetify = createVuetify({
@@ -21,18 +21,19 @@ const vuetify = createVuetify({
     directives,
     icons: {
         defaultSet: 'mdi',
-        sets: { mdi },
+        sets: {mdi},
     },
 
 })
 export const i18n = createI18n({
         locale: navigator.language.split('-')[0],  // Extract the language code from the browser locale (e.g., 'en' from 'en-US')
         fallbackLocale: 'en',
+        messageLink: false,
         messages: {
-             en: en,
+            en: en,
             // de: de,
             // es: es,
-             it: it
+            it: it
         }
     }
 )
@@ -53,4 +54,4 @@ app.use(vuetify)
 app.use(router)
 app.use(i18n)
 app.mount('#app')
-export { db }
+export {db}

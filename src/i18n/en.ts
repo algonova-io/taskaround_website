@@ -21,7 +21,7 @@ const en = {
         "company": "Company: Taskaround Inc.",
         "contactEmail": "Contact Email:",
         "intro": "This Privacy Policy describes how Taskaround Inc. (\"Taskaround\", \"we\", \"our\", or \"us\") collects, uses, and discloses personal information when you use the Taskaround mobile application (\"Application\"). By using the Application, you agree to the collection and use of information in accordance with this policy.",
-        sections: {
+        "sections": {
             "1": {
                 "title": "1. Information We Collect",
                 "a": {
@@ -104,7 +104,6 @@ const en = {
                         "description":
                             "to comply with applicable laws",
                     }
-                    ,
                 },
             },
             "5":
@@ -126,7 +125,7 @@ const en = {
                             "3": {
                                 "label": "Business partners",
                                 "description": "in case of a merger, acquisition, or asset sale",
-                            },
+                            }
                         },
                     "note":
                         "We do not sell or rent your personal information to third parties.",
@@ -173,7 +172,7 @@ const en = {
                             "2": "Automatically Collected Data: for up to 24 months, or in aggregated form thereafter",
                         },
                     "note":
-                        "You can request deletion by contacting us at info@taskaround.io. We will process requests within a reasonable time. Some information may be retained as required by law or for legitimate business needs.",
+                        "You can request deletion by contacting us at info{'@'}taskaround.io. We will process requests within a reasonable time. Some information may be retained as required by law or for legitimate business needs.",
                 }
             ,
             "8":
@@ -191,7 +190,7 @@ const en = {
                             "5": "Withdraw consent at any time",
                         },
                     "note":
-                        "To exercise these rights, contact us at info@taskaround.io.",
+                        "To exercise these rights, contact us at info{'@'}taskaround.io.",
                 }
             ,
             "9":
@@ -212,7 +211,7 @@ const en = {
                     "text":
                         "This Application is not intended for anyone under the age of 18. We do not knowingly collect or solicit personal information from individuals under 18.",
                     "note":
-                        "If we learn that we have inadvertently collected personal data from someone under 18, we will delete it immediately. Parents or guardians who believe their child has provided us with information should contact us at info@taskaround.io.",
+                        "If we learn that we have inadvertently collected personal data from someone under 18, we will delete it immediately. Parents or guardians who believe their child has provided us with information should contact us at info{'@'}taskaround.io.",
                 }
             ,
             "11":
@@ -250,7 +249,7 @@ const en = {
                         "If you have questions about this Privacy Policy or your data, contact us at:",
                     "items":
                         {
-                            "1": "Email: info@taskaround.io",
+                            "1": "Email: info{'@'}taskaround.io",
                             "2": "Mail: Taskaround Inc., 1111b South Governors Ave, STE 29971, Dover, DE 19904, USA",
                         },
                 }
@@ -494,7 +493,7 @@ const en = {
                                 "1": "Arbitration: Any disputes will be resolved exclusively by binding arbitration under the rules of the American Arbitration Association (AAA).",
                                 "2": "Governing Law: These Terms are governed by the laws of the State of Delaware, USA.",
                                 "3": "No Class Actions: You agree to resolve disputes individually and waive the right to participate in any class or collective action.",
-                                "4": "Arbitration Opt-Out: You may opt out of binding arbitration by sending written notice to legal@taskaround.io within 30 days of your first acceptance of these Terms."
+                                "4": "Arbitration Opt-Out: You may opt out of binding arbitration by sending written notice to legal{'@'}taskaround.io within 30 days of your first acceptance of these Terms."
                             }
                     }
                 ,
@@ -525,7 +524,7 @@ const en = {
                             "If you have questions or concerns, contact us:",
                         "items":
                             {
-                                "1": "Email: info@taskaround.io",
+                                "1": "Email: info{'@'}taskaround.io",
                                 "2": "Mail: Taskaround Inc., 1111b South Governors Ave, STE 29971, Dover, DE 19904, USA"
                             }
                     }
@@ -548,7 +547,7 @@ const en = {
             "emailLabel":
                 "Email address",
             "emailPlaceholder":
-                "you@example.com",
+                "you{'@'}example.com",
             "msgLabel":
                 "Optional message",
             "msgPlaceholder":
