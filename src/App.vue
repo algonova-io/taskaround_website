@@ -36,9 +36,27 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
     <v-footer class="footer py-4">
       <div class="d-flex flex-row  flex-fill content">
         <div class="d-flex flex-row ga-5">
-          <font-awesome-icon class="social-icons"  :icon="faInstagram"/>
-          <font-awesome-icon class="social-icons"  :icon="faFacebook"/>
-          <font-awesome-icon class="social-icons"  :icon="faLinkedin"/>
+          <a
+              href="https://www.instagram.com/taskaround.io/"
+              target="_blank"
+              rel="noopener"
+          >
+            <font-awesome-icon href="https://www.instagram.com/taskaround.io/" class="social-icons" :icon="faInstagram" />
+          </a>
+          <a
+              href="https://www.instagram.com/taskaround.io/"
+              target="_blank"
+              rel="noopener"
+          >
+            <font-awesome-icon class="social-icons" :icon="faFacebook" />
+          </a>
+          <a
+              href="https://www.instagram.com/taskaround.io/"
+              target="_blank"
+              rel="noopener"
+          >
+            <font-awesome-icon class="social-icons" :icon="faLinkedin" />
+          </a>
         </div>
         <v-spacer/>
         <div class="footer-links">
