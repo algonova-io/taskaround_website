@@ -11,8 +11,12 @@
           </div>
         </div>
         <div class="d-flex flex-row">
-          <img class="store-buttons" src="../assets/Google%20Play.png" alt="Download on Google Play"/>
-          <img class="store-buttons" src="../assets/App%20Store.png" alt="Download on the App Store"/>
+          <a href="https://play.google.com/store/apps/details?id=com.taskaround.app">
+            <img class="store-buttons" src="../assets/Google%20Play.png" alt="Download on Google Play"/>
+          </a>
+          <a href="https://apps.apple.com/app/taskaround/id6746360517">
+            <img class="store-buttons"  src="../assets/App%20Store.png" alt="Download on the App Store"/>
+          </a>
         </div>
       </v-col>
       <v-spacer/>
