@@ -44,7 +44,7 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
             <font-awesome-icon href="https://www.instagram.com/taskaround.io/" class="social-icons" :icon="faInstagram" />
           </a>
           <a
-              href="https://www.instagram.com/taskaround.io/"
+              href="https://www.facebook.com/people/Taskaround/61577809630562/"
               target="_blank"
               rel="noopener"
           >
