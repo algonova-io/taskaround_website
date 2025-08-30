@@ -19,8 +19,14 @@
           </a>
         </div>
       </v-col>
-      <v-col cols="6" v-if="!sm" class="d-flex justify-end">
-          <img
+      <v-col cols="6" v-if="!sm" class="d-flex justify-end images-container">
+        <img
+            class="overlap-image"
+            style="width: auto; height: auto; max-height: 800px"
+            src="../assets/mockup_phone_2.png"
+            alt=""
+        />
+        <img
               class="overlap-image"
               style="width: auto; height: auto; max-height: 800px"
               src="../assets/mockup_phone_home.png"
@@ -59,9 +65,18 @@ const sm = useDisplay().smAndDown
 
 /* Overlapping images */
 .overlap-image {
+  position: relative;
+  z-index: 2;
   transition: transform 0.2s ease-in-out; /* Optional hover effect */
-  width: 100%;
-  height: auto;
+  width: 45%;
+  max-width: 280px;
+
+}
+
+.overlap-image:first-child {
+  margin-right: -50px; /* Negative margin to overlap */
+  z-index: 1; /* Ensures the first image is on top */
+  transform: rotate(-8deg) translateX(-20px);
 }
 
 

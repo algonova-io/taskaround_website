@@ -1,6 +1,6 @@
 const it = {
     homePage: {
-        title: 'Una mano a Portata di app',
+        title: 'Una mano, a portata di app',
         description: "Taskaround è il marketplace locale per piccoli lavori: pubblica una task o candidati per guadagnare con la tua disponibilità."
         ,
     },
