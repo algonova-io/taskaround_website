@@ -10,18 +10,18 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
       <!-- Left side: Logo -->
       <v-col cols="6" class="logo">
         <router-link to="/">
-          <img src="./assets/taskaround_logo_white.png" alt="TaskAround Logo" height="100"/>
+          <img src="./assets/taskaround_logo_black.png" alt="TaskAround Logo" height="100"/>
         </router-link>
       </v-col>
       <!-- Right side: Navigation Links -->
       <v-col class="menu">
-<!--        <v-spacer></v-spacer>-->
-<!--        <router-link to="#" style="color: white; text-decoration: none">-->
-<!--          <span>{{ $t('navigation.contact') }}</span>-->
-<!--        </router-link>-->
-<!--        <router-link to="#" style="color: white; text-decoration: none">-->
-<!--          <span>{{ $t('navigation.blog') }}</span>-->
-<!--        </router-link>-->
+        <v-spacer></v-spacer>
+        <router-link to="#" style="color: black; text-decoration: none">
+          <span>{{ $t('navigation.contact') }}</span>
+        </router-link>
+        <router-link to="#" style="color: black; text-decoration: none">
+          <span>{{ $t('navigation.blog') }}</span>
+        </router-link>
       </v-col>
     </div>
     <div class="d-flex  content overflow-auto">
@@ -30,7 +30,6 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
           <component :is="Component"/>
         </transition>
       </router-view>
-
     </div>
 
     <v-footer class="footer py-4">

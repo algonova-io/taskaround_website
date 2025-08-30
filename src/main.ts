@@ -8,7 +8,6 @@ import '@mdi/font/css/materialdesignicons.css'
 import {createI18n} from "vue-i18n";
 import 'vuetify/styles/main.css'
 import '@mdi/font/css/materialdesignicons.css'
-import en from "./i18n/en.ts";
 import it from "./i18n/it.ts";
 import router from "./router";
 import {mdi} from "vuetify/iconsets/mdi";
@@ -30,7 +29,7 @@ export const i18n = createI18n({
         fallbackLocale: 'it',
         messageLink: false,
         messages: {
-            en: en,
+        //    en: en,
             // de: de,
             // es: es,
             it: it

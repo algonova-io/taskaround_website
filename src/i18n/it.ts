@@ -1,8 +1,7 @@
 const it = {
     homePage: {
-        title: 'Tra vicini ci si aiuta',
-        description: "Scopri chi può darti una mano nel tuo quartiere, o offirti tu.\n" +
-            "Bastano pochi secondi, ed è gratis!\nScarica ora!"
+        title: 'Una mano a Portata di app',
+        description: "Taskaround è il marketplace locale per piccoli lavori: pubblica una task o candidati per guadagnare con la tua disponibilità."
         ,
     },
     navigation: {
