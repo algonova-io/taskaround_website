@@ -22,13 +22,13 @@
       <v-col cols="6" v-if="!sm" class="d-flex justify-end images-container">
         <img
             class="overlap-image"
-            style="width: auto; height: auto; max-height: 800px"
+            style="width: auto;  max-height: 800px"
             src="../assets/mockup_phone_2.png"
             alt=""
         />
         <img
               class="overlap-image"
-              style="width: auto; height: auto; max-height: 800px"
+              style="width: auto;  max-height: 800px"
               src="../assets/mockup_phone_home.png"
               alt=""
           />
