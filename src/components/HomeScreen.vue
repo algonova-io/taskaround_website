@@ -1,6 +1,6 @@
 <template>
   <div  class="d-flex justify-center" style="background: transparent; height: 100%">
-      <v-col :cols="sm ? 12 : 6" class="d-flex flex-column   ga-6 pt-16">
+      <v-col :cols="sm ? 12 : 6" class="d-flex flex-column overflow-x-hidden ga-6 pt-16">
         <div class="d-flex flex-column ga-6">
           <h1>{{ $t('homePage.title')}}</h1>
           <div class="d-flex flex-column">
@@ -20,14 +20,12 @@
         </div>
       </v-col>
       <v-col cols="6" v-if="!sm" class="d-flex justify-end">
-
           <img
               class="overlap-image"
               style="width: auto; height: auto; max-height: 800px"
               src="../assets/mockup_phone_home.png"
               alt=""
           />
-
       </v-col>
   </div>
 </template>
