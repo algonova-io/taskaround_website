@@ -34,34 +34,37 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
 
     <v-footer class="footer py-4">
       <div class="d-flex flex-row  flex-fill content">
-        <div class="d-flex flex-row ga-5">
-          <a
-              href="https://www.instagram.com/taskaround.io/"
-              target="_blank"
-              rel="noopener"
-          >
-            <font-awesome-icon href="https://www.instagram.com/taskaround.io/" class="social-icons" :icon="faInstagram" />
-          </a>
-          <a
-              href="https://www.facebook.com/people/Taskaround/61577809630562/"
-              target="_blank"
-              rel="noopener"
-          >
-            <font-awesome-icon class="social-icons" :icon="faFacebook" />
-          </a>
-          <a
-              href="https://www.instagram.com/taskaround.io/"
-              target="_blank"
-              rel="noopener"
-          >
-            <font-awesome-icon class="social-icons" :icon="faLinkedin" />
-          </a>
-        </div>
-        <v-spacer/>
-        <div class="footer-links">
-          <router-link to="/terms">{{ $t('footer.terms') }}</router-link>
-          <router-link to="/privacy">{{ $t('footer.privacy') }}</router-link>
-        </div>
+        <v-col cols="6">
+          <div class="d-flex flex-row ga-5">
+            <a
+                href="https://www.instagram.com/taskaround.io/"
+                target="_blank"
+                rel="noopener"
+            >
+              <font-awesome-icon href="https://www.instagram.com/taskaround.io/" class="social-icons" :icon="faInstagram" />
+            </a>
+            <a
+                href="https://www.facebook.com/people/Taskaround/61577809630562/"
+                target="_blank"
+                rel="noopener"
+            >
+              <font-awesome-icon class="social-icons" :icon="faFacebook" />
+            </a>
+            <a
+                href="https://www.instagram.com/taskaround.io/"
+                target="_blank"
+                rel="noopener"
+            >
+              <font-awesome-icon class="social-icons" :icon="faLinkedin" />
+            </a>
+          </div>
+
+        </v-col>
+        <v-col class="justify-end d-flex flex-row" cols="6">
+            <router-link to="/terms">{{ $t('footer.terms') }}</router-link>
+            <router-link to="/privacy">{{ $t('footer.privacy') }}</router-link>
+        </v-col>
+
 
       </div>
     </v-footer>
